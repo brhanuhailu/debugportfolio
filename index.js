@@ -277,7 +277,7 @@ formContact.addEventListener('submit', (event) => {
 formContact.addEventListener('submit', () => {
   if (fname.value !== '' && emailval.value !== '' && messages.value !== '') {
     const storeData = {
-      Name: fname.value,
+      Name: fname.c,
       Email: emailval.value,
       Message: messages.value,
     };
